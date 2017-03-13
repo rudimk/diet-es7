@@ -4,7 +4,9 @@
   "description": "An experiment with using the diet.js framework with ES7.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "app": "babel src -d build && node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,20 @@
   "bugs": {
     "url": "https://github.com/rudimk/diet-es7/issues"
   },
-  "homepage": "https://github.com/rudimk/diet-es7#readme"
+  "homepage": "https://github.com/rudimk/diet-es7#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-regenerator": "^6.22.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-latest": "^6.22.0"
+  },
+  "dependencies": {
+    "diet": "^0.15.0",
+    "got": "^6.7.1",
+    "uuid": "^3.0.1"
+  }
 }
