@@ -1,0 +1,19 @@
+{
+  "name": "diet-es7",
+  "version": "0.0.1",
+  "description": "An experiment with using the diet.js framework with ES7.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudimk/diet-es7.git"
+  },
+  "author": "Rudraksh MK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudimk/diet-es7/issues"
+  },
+  "homepage": "https://github.com/rudimk/diet-es7#readme"
+}
